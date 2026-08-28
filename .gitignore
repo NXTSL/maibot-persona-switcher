@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+config_back/
+*.bak*
+backups/
+.env
+.venv/
+venv/

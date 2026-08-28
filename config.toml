@@ -1,0 +1,19 @@
+[plugin]
+config_version = "0.1.0"
+enabled = true
+
+[switcher]
+personas_file = "personas.toml"
+target_config = "/MaiMBot/config/bot_config.toml"
+backup_keep = 10
+try_hot_reload = true
+hot_reload_apis = [
+    "host.system.reload_config",
+    "host.config.reload",
+    "host.system.reload",
+    "host.config.reload_global",
+]
+
+[access]
+mode = "blacklist"
+user_list = []

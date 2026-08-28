@@ -1,0 +1,41 @@
+{
+  "manifest_version": 2,
+  "id": "nxtsl.persona-switcher",
+  "version": "0.1.0",
+  "name": "麦麦人格一键切换",
+  "description": "通过命令在多套预置人格/回复风格之间一键切换，修改 bot_config.toml 的 [personality] 段。",
+  "author": {
+    "name": "NXTSL",
+    "url": "https://github.com/NXTSL"
+  },
+  "license": "MIT",
+  "host_application": {
+    "min_version": "1.0.0",
+    "max_version": "99.99.99"
+  },
+  "sdk": {
+    "min_version": "1.0.0",
+    "max_version": "99.99.99"
+  },
+  "dependencies": [],
+  "plugin_type": "feature",
+  "display": {
+    "icon": {
+      "type": "emoji",
+      "value": "🎭"
+    }
+  },
+  "capabilities": [
+    "command",
+    "send.text"
+  ],
+  "urls": {
+    "repository": "https://github.com/NXTSL/maibot-persona-switcher",
+    "homepage": "https://github.com/NXTSL/maibot-persona-switcher",
+    "documentation": "https://github.com/NXTSL/maibot-persona-switcher",
+    "issues": "https://github.com/NXTSL/maibot-persona-switcher/issues"
+  },
+  "i18n": {
+    "default_locale": "zh-CN"
+  }
+}
